@@ -8,10 +8,12 @@ namespace LeagueOfNinjas.Model.Equipment
 {
     public class Shoulder : IEquipment
     {
+        private int _id;
         private int _price;
         private int _str;
         private int _dex;
         private int _int;
+        private string _name;
 
         public int Price
         {
@@ -35,6 +37,18 @@ namespace LeagueOfNinjas.Model.Equipment
         {
             get { return _int; }
             set { _int = value; }
+        }
+
+        public int Id
+        {
+            get { return _id; }
+            set { _id = value; }
+        }
+
+        public string Name
+        {
+            get { return _name; }
+            set { _name = value; }
         }
     }
 }
