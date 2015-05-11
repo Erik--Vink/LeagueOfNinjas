@@ -48,3 +48,5 @@ C:\Users\Erik\Documents\GitHub\LeagueOfNinjas\LeagueOfNinjas.Model\bin\Debug\Gal
 C:\Users\Erik\Documents\GitHub\LeagueOfNinjas\LeagueOfNinjas.Model\bin\Debug\GalaSoft.MvvmLight.Platform.xml
 C:\Users\Erik\Documents\GitHub\LeagueOfNinjas\LeagueOfNinjas.Model\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
 C:\Users\Erik\Documents\GitHub\LeagueOfNinjas\LeagueOfNinjas.Model\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Erik\Documents\GitHub\LeagueOfNinjas\LeagueOfNinjas.Model\bin\Debug\Ninject.dll
+C:\Users\Erik\Documents\GitHub\LeagueOfNinjas\LeagueOfNinjas.Model\bin\Debug\Ninject.xml

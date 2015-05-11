@@ -14,7 +14,10 @@
 
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Ioc;
+using LeagueOfNinjas.Model.DataAccess;
+using LeagueOfNinjas.Model.Interfaces;
 using LeagueOfNinjas.View.ViewModels;
+using LeagueOfNinjas.ViewModels;
 using Microsoft.Practices.ServiceLocation;
 
 namespace LeagueOfNinjas.View.ViewModels
@@ -30,6 +33,7 @@ namespace LeagueOfNinjas.View.ViewModels
         /// </summary>
         public ViewModelLocator()
         {
+            var dsl = DataServiceLocator.Instance;
             ServiceLocator.SetLocatorProvider(() => SimpleIoc.Default);
 
             //if (viewmodelbase.isindesignmodestatic)
@@ -44,6 +48,8 @@ namespace LeagueOfNinjas.View.ViewModels
             //}
 
             SimpleIoc.Default.Register<MainViewModel>();
+            SimpleIoc.Default.Register<IDataAccessProvider>(() => dsl.DataAccessProvider);
+            SimpleIoc.Default.Register<CollectionViewModel>();
             SimpleIoc.Default.Register<ShopViewModel>();
         }
 

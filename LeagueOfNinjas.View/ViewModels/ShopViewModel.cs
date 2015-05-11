@@ -16,18 +16,18 @@ namespace LeagueOfNinjas.View.ViewModels
         public IDataAccessProvider DataAccessProvider { get; set; }
         public CollectionViewModel CollectionViewModel { get; set; }
 
-        //public ShopViewModel(IDataAccessProvider dap, CollectionViewModel cvm)
-        //{
-        //    DataAccessProvider = dap;
-        //    CollectionViewModel = cvm;
-
-        //    CollectionViewModel.RefreshCollections();
-        //}
-
-        public ShopViewModel()
+        public ShopViewModel(IDataAccessProvider dap, CollectionViewModel cvm)
         {
+            DataAccessProvider = dap;
+            CollectionViewModel = cvm;
 
+            CollectionViewModel.RefreshCollections();
         }
+
+        //public ShopViewModel()
+        //{
+
+        //}
 
         #region MainWindow
 

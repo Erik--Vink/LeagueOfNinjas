@@ -1,4 +1,6 @@
-﻿using System;
+﻿using LeagueOfNinjas.Model.Utillity;
+using Ninject;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +13,11 @@ namespace LeagueOfNinjas.Model.DataAccess
         private static DataServiceLocator _dataServiceLocator;
         private readonly StandardKernel _kernel;
         private DataAccessProvider _dataAccessProvider;
+
+        private DataServiceLocator()
+        {
+            _kernel = new StandardKernel(new Bindings());
+        }
 
         public static DataServiceLocator Instance
         {
