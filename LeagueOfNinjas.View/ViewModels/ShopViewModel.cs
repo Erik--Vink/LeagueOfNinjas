@@ -9,19 +9,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeagueOfNinjas.ViewModel
+namespace LeagueOfNinjas.View.ViewModels
 {
     public class ShopViewModel : ViewModelBase
     {
         public IDataAccessProvider DataAccessProvider { get; set; }
         public CollectionViewModel CollectionViewModel { get; set; }
 
-        public ShopViewModel(IDataAccessProvider dap, CollectionViewModel cvm)
-        {
-            DataAccessProvider = dap;
-            CollectionViewModel = cvm;
+        //public ShopViewModel(IDataAccessProvider dap, CollectionViewModel cvm)
+        //{
+        //    DataAccessProvider = dap;
+        //    CollectionViewModel = cvm;
 
-            CollectionViewModel.RefreshCollections();
+        //    CollectionViewModel.RefreshCollections();
+        //}
+
+        public ShopViewModel()
+        {
+
         }
 
         #region MainWindow

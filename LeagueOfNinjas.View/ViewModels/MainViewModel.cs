@@ -1,7 +1,7 @@
 using GalaSoft.MvvmLight;
 using LeagueOfNinjas.Model.DataAccess;
 
-namespace LeagueOfNinjas.ViewModel
+namespace LeagueOfNinjas.View.ViewModels
 {
     /// <summary>
     /// This class contains properties that the main View can data bind to.

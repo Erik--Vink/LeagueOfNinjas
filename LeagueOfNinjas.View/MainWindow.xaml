@@ -1,4 +1,4 @@
-﻿<Window x:Class="LeagueOfNinjas.MainWindow"
+﻿<Window x:Class="LeagueOfNinjas.View.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Shop" Height="350" Width="525"
@@ -22,7 +22,7 @@
                 <DataGridTextColumn Header="Merken" Binding="{Binding MerkNaam}" Width="*"/>
             </DataGrid.Columns>
         </DataGrid>-->
-        <StackPanel Width="200">
+        <!--<StackPanel Width="200">
             <Label Style="{StaticResource HeaderLabel}" Content="Category:"/>
             <Label Style="{StaticResource SelectedInfo}" Content="{Binding SelectedEquipDetails.CategoryName}"/>
             <Label Style="{StaticResource HeaderLabel}" Content="Product:"/>
@@ -32,6 +32,6 @@
             <Label Style="{StaticResource HeaderLabel}" Content="Prijs:"/>
             <Label Style="{StaticResource SelectedInfo}" Content="{Binding SelectedMerkProduct.FormatPrijs}"/>
             <Button Content="Toevoegen" IsEnabled="{Binding IsProductMerkSelected}" Command="{Binding AddMerkProduct}"/>
-        </StackPanel>
+        </StackPanel>-->
     </StackPanel>
 </Window>

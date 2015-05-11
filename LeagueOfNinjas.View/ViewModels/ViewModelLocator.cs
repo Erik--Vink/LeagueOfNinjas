@@ -14,9 +14,10 @@
 
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Ioc;
+using LeagueOfNinjas.View.ViewModels;
 using Microsoft.Practices.ServiceLocation;
 
-namespace LeagueOfNinjas.ViewModel
+namespace LeagueOfNinjas.View.ViewModels
 {
     /// <summary>
     /// This class contains static references to all the view models in the
