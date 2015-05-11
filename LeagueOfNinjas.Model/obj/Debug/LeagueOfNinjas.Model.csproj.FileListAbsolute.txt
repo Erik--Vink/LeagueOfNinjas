@@ -5,7 +5,6 @@ C:\Users\Erik\Documents\GitHub\LeagueOfNinjas\LeagueOfNinjas.Model\bin\Debug\Ent
 C:\Users\Erik\Documents\GitHub\LeagueOfNinjas\LeagueOfNinjas.Model\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Erik\Documents\GitHub\LeagueOfNinjas\LeagueOfNinjas.Model\bin\Debug\EntityFramework.xml
 C:\Users\Erik\Documents\GitHub\LeagueOfNinjas\LeagueOfNinjas.Model\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Erik\Documents\GitHub\LeagueOfNinjas\LeagueOfNinjas.Model\obj\Debug\LeagueOfNinjas.Model.csprojResolveAssemblyReference.cache
 C:\Users\Erik\Documents\GitHub\LeagueOfNinjas\LeagueOfNinjas.Model\obj\Debug\LeagueOfNinjas.Model.dll
 C:\Users\Erik\Documents\GitHub\LeagueOfNinjas\LeagueOfNinjas.Model\obj\Debug\LeagueOfNinjas.Model.pdb
 C:\Users\Erik\Documents\GitHub\LeagueOfNinjas\LeagueOfNinjas.Model\obj\Debug\LeagueOfNinjas.Model.Migrations.Initial.resources

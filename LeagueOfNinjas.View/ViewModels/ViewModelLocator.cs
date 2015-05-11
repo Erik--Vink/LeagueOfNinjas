@@ -46,9 +46,9 @@ namespace LeagueOfNinjas.View.ViewModels
             //    // create run time view services and models
             //    simpleioc.default.register<idataservice, dataservice>();
             //}
-
-            SimpleIoc.Default.Register<MainViewModel>();
             SimpleIoc.Default.Register<IDataAccessProvider>(() => dsl.DataAccessProvider);
+            SimpleIoc.Default.Register<MainViewModel>();
+            
             SimpleIoc.Default.Register<CollectionViewModel>();
             SimpleIoc.Default.Register<ShopViewModel>();
         }

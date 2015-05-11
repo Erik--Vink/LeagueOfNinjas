@@ -21,7 +21,7 @@ namespace LeagueOfNinjas.View.ViewModels
         /// Initializes a new instance of the MainViewModel class.
         /// </summary>
         /// 
-        public DataAccessProvider DataAccessProvider { get; set; }
+        //public DataAccessProvider DataAccessProvider { get; set; }
         public MainViewModel()
         {
             ////if (IsInDesignMode)

@@ -99,3 +99,5 @@ C:\Users\Erik\Documents\GitHub\LeagueOfNinjas\LeagueOfNinjas.View\obj\Debug\Leag
 C:\Users\Erik\Documents\GitHub\LeagueOfNinjas\LeagueOfNinjas.View\obj\Debug\LeagueOfNinjas.View.csproj.GenerateResource.Cache
 C:\Users\Erik\Documents\GitHub\LeagueOfNinjas\LeagueOfNinjas.View\bin\Debug\Ninject.dll
 C:\Users\Erik\Documents\GitHub\LeagueOfNinjas\LeagueOfNinjas.View\bin\Debug\Ninject.xml
+C:\Users\Erik\Documents\GitHub\LeagueOfNinjas\LeagueOfNinjas.View\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Erik\Documents\GitHub\LeagueOfNinjas\LeagueOfNinjas.View\bin\Debug\EntityFramework.SqlServer.xml
